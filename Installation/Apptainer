@@ -1,0 +1,2 @@
+apptainer build hybrid-bact-assembly.sif Singularity.def
+apptainer exec --bind $(pwd) hybrid-bact-assembly.sif snakemake --cores 16   #HPC friendly
