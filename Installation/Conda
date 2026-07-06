@@ -1,0 +1,4 @@
+git clone https://github.com/Dauntless-101/Hybrid-Bacterial-Genome-Assembly.git
+cd Hybrid-Bacterial-Genome-Assembly
+conda env create -f environment.yml
+conda activate hybrid-assembly
