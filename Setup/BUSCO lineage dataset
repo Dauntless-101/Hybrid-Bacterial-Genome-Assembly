@@ -1,0 +1,3 @@
+conda env create -f workflow/envs/busco.yaml -n busco_env
+conda activate busco_env
+busco --download bacteria_odb10     #default name
