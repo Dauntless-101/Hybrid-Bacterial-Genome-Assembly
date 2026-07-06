@@ -1,0 +1,5 @@
+docker pull ghcr.io/dauntless-101/hybrid-bact-assembly:latest
+
+#or a more local build
+docker build -t hybrid-bact-assembly .
+docker run -v $(pwd):/data hybrid-bact-assembly snakemake --cores 8
