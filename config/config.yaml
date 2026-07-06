@@ -1,0 +1,38 @@
+# ============================================================
+# Hybrid-Bacterial-Genome-Assembly Configuration
+# ============================================================
+
+# Sample sheet (tab‑separated with columns: sample, r1, r2, long_reads)
+sample_sheet: "samples.tsv"
+
+# Assembly parameters
+assembly:
+  genome_size: 5m
+
+# Read trimming / filtering
+trimming:
+  min_quality: 10      # Phred score for chopper
+  min_length: 1000     # minimum read length for chopper
+
+# BUSCO assessment
+busco:
+  lineage: bacteria_odb10
+
+# Bakta database path (must be pre‑downloaded)
+bakta:
+  db_path: "/path/to/bakta_db"
+
+# Resources
+resources:
+  default_threads: 16
+  memory_mb: 32000
+
+# Pipeline metadata
+pipeline:
+  version: "1.0.0"
+
+logging:
+  keep_intermediate: false
+
+benchmarking:
+  enabled: true
