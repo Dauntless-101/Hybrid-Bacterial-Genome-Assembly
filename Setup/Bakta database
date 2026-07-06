@@ -1,0 +1,3 @@
+conda env create -f workflow/envs/bakta.yaml -n bakta_env
+conda activate bakta_env
+bakta_db download --output /path/to/bakta_db
