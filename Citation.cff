@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Akerzoul"
+    given-names: "Taha"
+    orcid: "https://orcid.org/0009-0008-0613-4401"
+title: "Hybrid-Bacterial-Genome-Assembly: A reproducible Snakemake workflow for ONT & Illumina bacterial genome assembly and annotation"
+version: 0.01
+
+date-released: 2026-07-11
+url: "https://github.com/Dauntless-101/Hybrid-Bacterial-Genome-Assembly"
