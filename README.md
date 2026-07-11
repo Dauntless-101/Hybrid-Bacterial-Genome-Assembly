@@ -4,7 +4,7 @@
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com)
 [![Apptainer](https://img.shields.io/badge/apptainer-ready-blue.svg)](https://apptainer.org)
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXX-orange.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
+[![DOI](https://zenodo.org/badge/1290979071.svg)](https://doi.org/10.5281/zenodo.21310959)
 
 **A reproducible Snakemake workflow for hybrid bacterial genome assembly from Illumina short reads and Oxford Nanopore long reads.**
 
